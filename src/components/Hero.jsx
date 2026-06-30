@@ -25,12 +25,13 @@ export default function Hero() {
             View Projects
           </button>
           <a
-            href="/resume.pdf"
-            download
-            className="btn-secondary"
-          >
-            Download Resume ↓
-          </a>
+  href="https://drive.google.com/file/d/1DEy3ckC15XfncWNIMRHAGtGi7iUnA4Yw/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-secondary"
+>
+  View Resume ↗
+</a>
           <a href="https://github.com/aditi838" target="_blank" rel="noreferrer" className="btn-ghost">
             GitHub ↗
           </a>
