@@ -78,8 +78,7 @@ export default function Projects() {
           <p className="tag">PROJECTS</p>
           <h2 className="section-title">Things I've Built</h2>
           <p className="section-sub">
-            Three end-to-end AI applications — each with a deployed demo, a documented
-            codebase, and real engineering decisions behind the architecture.
+            Three end-to-end applications spanning AI, machine learning, and NLP—each with a deployed demo and a documented codebase.
           </p>
         </div>
 
