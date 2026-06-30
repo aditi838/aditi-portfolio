@@ -1,0 +1,78 @@
+.contact {
+  padding: 110px 6%;
+  background: var(--bg-2);
+  text-align: center;
+}
+
+.contact-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-inner .section-sub {
+  margin: 0 auto 48px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: 0.25s;
+}
+
+.contact-btn.linkedin {
+  background: rgba(99,102,241,0.12);
+  color: #a5b4fc;
+  border: 1px solid rgba(99,102,241,0.25);
+}
+
+.contact-btn.linkedin:hover {
+  background: rgba(99,102,241,0.2);
+  transform: translateY(-2px);
+}
+
+.contact-btn.github {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-2);
+  border: 1px solid var(--border);
+}
+
+.contact-btn.github:hover {
+  color: white;
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+}
+
+.contact-btn.leetcode {
+  background: rgba(245,158,11,0.08);
+  color: var(--gold);
+  border: 1px solid rgba(245,158,11,0.2);
+}
+
+.contact-btn.leetcode:hover {
+  background: rgba(245,158,11,0.15);
+  transform: translateY(-2px);
+}
+
+.contact-btn.medium {
+  background: rgba(255,255,255,0.04);
+  color: var(--text-2);
+  border: 1px solid var(--border);
+}
+
+.contact-btn.medium:hover {
+  color: white;
+  background: rgba(255,255,255,0.09);
+  transform: translateY(-2px);
+}

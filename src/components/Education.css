@@ -1,0 +1,95 @@
+.education {
+  padding: 110px 6%;
+  background: var(--bg);
+}
+
+.education-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-header {
+  margin-bottom: 64px;
+}
+
+.edu-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  padding-left: 32px;
+}
+
+.edu-timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background: var(--border);
+}
+
+.edu-card {
+  position: relative;
+  padding-bottom: 52px;
+}
+
+.edu-card:last-child { padding-bottom: 0; }
+
+.edu-dot {
+  position: absolute;
+  left: -28px;
+  top: 14px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--c);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--c);
+}
+
+.edu-year {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--c);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.edu-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.edu-school {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  margin-bottom: 14px;
+}
+
+.edu-detail {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.edu-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.edu-tag {
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--c) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c) 25%, transparent);
+  color: var(--c);
+  font-weight: 500;
+}
